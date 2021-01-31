@@ -104,12 +104,6 @@ img, svg {
   position: absolute;
 }
 
-p {
-  position: absolute;
-  z-index: 6;
-  top: 0px;
-}
-
 img, svg {
   object-fit: cover;
 }
