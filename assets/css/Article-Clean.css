@@ -82,3 +82,19 @@
   max-width: 100%;
 }
 
+p {
+}
+
+.navbar.navbar-light.navbar-expand-lg.portfolio-navbar.gradient {
+  z-index: 21;
+}
+
+.btn-group, .btn-group-vertical {
+  /*position: absolute;*/
+  /*top: 174px;*/
+}
+
+.row {
+  position: inherit;
+}
+

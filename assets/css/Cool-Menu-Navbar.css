@@ -101,7 +101,8 @@ img, svg {
 }
 
 .col-auto.d-flex.justify-content-center.justify-content-xl-center.align-items-xl-center {
-  position: absolute;
+  position: sticky;
+  z-index: 15;
 }
 
 img, svg {
