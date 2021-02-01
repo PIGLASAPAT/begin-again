@@ -98,3 +98,12 @@ p {
   position: inherit;
 }
 
+.d-xl-flex {
+  margin: auto;
+}
+
+.col {
+  position: relative;
+  top: 50;
+}
+
