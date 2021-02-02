@@ -10,6 +10,5 @@ $(function(){
         nextButton: '.swiper-button-next',
         prevButton: '.swiper-button-prev'
     });
-    if ("serviceWorker" in navigator) { navigator.serviceWorker.register("service-worker.js");
-    }
+    
 });
