@@ -47,6 +47,12 @@ Ateneo.">
   gtag('config', 'G-DQ27QSKGED');
 </script><script src="myscripts.js"></script>
 <script type="module" src="https://cdn.jsdelivr.net/npm/@pwabuilder/pwainstall@latest/dist/pwa-install.min.js"></script>
+<script>
+    import 'https://cdn.jsdelivr.net/npm/@pwabuilder/pwaupdate';
+
+    const el = document.createElement('pwa-update');
+    document.body.appendChild(el);
+</script>
 </head>
 
 <body style="background: rgb(226,181,139);">
@@ -137,6 +143,7 @@ Ateneo.">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.1/js/swiper.jquery.min.js"></script>
     <script src="assets/js/myscripts.js"></script>
+    <script src="assets/js/pwabuilder-sw.js"></script>
     <script src="assets/js/slider.js"></script>
 </body>
 
