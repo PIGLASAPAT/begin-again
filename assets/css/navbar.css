@@ -107,7 +107,6 @@ img, svg {
 
 img, svg {
   object-fit: cover;
-  z-index: 0;
 }
 
 .img-fluid.float-none.justify-content-center.align-items-center.justify-content-sm-center.align-items-sm-center.justify-content-md-center.align-items-md-center.justify-content-lg-center.align-items-lg-center.justify-content-xl-center.align-items-xl-center {
@@ -152,5 +151,9 @@ video {
 }
 
 .row.align-items-center {
+}
+
+.d-xl-flex.align-items-center.align-content-center.align-self-center.align-items-sm-center.align-items-md-center.align-items-lg-center.justify-content-xl-center.align-items-xl-center {
+  position: relative;
 }
 
