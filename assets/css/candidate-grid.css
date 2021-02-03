@@ -97,3 +97,13 @@
   opacity: 1;
 }
 
+.article-clean {
+  z-index: 10;
+  position: relative;
+}
+
+.d-flex.justify-content-center.portfolio-block.website.gradient {
+  position: relative;
+  z-index: 31;
+}
+
